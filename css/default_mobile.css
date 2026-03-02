@@ -8,8 +8,12 @@
         padding: 0 0.5rem;
     }
 
+    .Liberty .nav-wrapper .navbar .navbar-login {
+        order: 0;
+    }
+
     .Liberty .nav-wrapper .navbar .form-inline {
-        float: left;
+        order: 10;
         padding: 0;
         padding-top: 0.25rem;
         padding-bottom: 0.5rem;
