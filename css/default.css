@@ -203,7 +203,7 @@ del, s, strike {
 
 .Liberty .nav-wrapper .navbar .form-inline {
     padding: 0.4rem 0;
-    float: right;
+    order: 2;
 }
 
 .Liberty .nav-wrapper .navbar .form-inline .form-control {
@@ -248,7 +248,7 @@ del, s, strike {
 }
 
 .Liberty .nav-wrapper .navbar .navbar-login {
-    float: right;
+    order: 3;
     padding-left: 0.8rem;
 }
 
