@@ -157,6 +157,7 @@ del, s, strike {
     white-space: nowrap;
     flex-shrink: 0;
     margin: var(--liberty-navbar-logo-margin, 0);
+    margin-right: 0.3rem;
     padding: var(--liberty-navbar-logo-padding, 0);
 }
 
