@@ -171,18 +171,12 @@
 
 /* Max-width: 397px 대형폰 이하 시작 부분 */
 @media (max-width: 397px) {
-    .Liberty .nav-wrapper .navbar .navbar-brand {
-        width: var(--liberty-navbar-logo-minimum-width, 5rem);
-        /* 모바일에서 Libre 로고 나타내는 거 수정 */
-        /*background: transparent url(../img/logo.png?2015-12-18T21:00:00Z) no-repeat scroll left center/auto 1.5rem*/
-    }
-
     .Liberty .nav-wrapper .navbar .navbar-nav .nav-item .nav-link::after {
         display: none;
     }
 
     .Liberty .nav-wrapper .navbar .navbar-nav .nav-item .nav-link {
-        padding: 0.7rem 0.2rem;
+        padding: 0.7rem 0.15rem;
     }
 
     .Liberty .nav-wrapper .navbar .navbar-login {

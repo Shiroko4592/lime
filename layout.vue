@@ -3,7 +3,7 @@
         <div id="top"></div>
         <div class="nav-wrapper" :class="{ 'navbar-fixed-top': $store.state.localConfig['liberty.fixed_navbar'] === true }">
             <nav class="navbar navbar-dark">
-                <nuxt-link class="navbar-brand" to="/"><img v-if="$store.state.config['wiki.logo_url']" :src="$store.state.config['wiki.logo_url']" style="height: 1.9rem; margin-right: 0.5rem; vertical-align: middle;" />{{ $store.state.config['skin.liberty.navbar_logo_text'] }}</nuxt-link>
+                <nuxt-link class="navbar-brand" to="/"><img v-if="$store.state.config['wiki.logo_url']" :src="$store.state.config['wiki.logo_url']" style="height: 1.9rem; margin-right: 0.5rem; vertical-align: middle;" /><span class="navbar-brand-text">{{ $store.state.config['skin.liberty.navbar_logo_text'] }}</span></nuxt-link>
                 <ul class="nav navbar-nav">
                     <li class="nav-item">
                         <nuxt-link class="nav-link" to="/RecentChanges"><span class="fa fa-refresh"></span><span class="hide-title">최근 변경</span></nuxt-link>
