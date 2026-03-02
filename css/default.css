@@ -149,11 +149,8 @@ del, s, strike {
 
 .Liberty .nav-wrapper .navbar .navbar-brand {
     height: 2.8rem;
-    width: var(--liberty-navbar-logo-width, 6.6rem);
-    background-image: var(--liberty-navbar-logo-image, none);
-    background-repeat: no-repeat no-repeat;
-    background-size: auto var(--liberty-navbar-logo-size, 1.9rem);
-    background-position: left center;
+    display: flex;
+    align-items: center;
     margin: var(--liberty-navbar-logo-margin, 0);
     padding: var(--liberty-navbar-logo-padding, 0);
 }
