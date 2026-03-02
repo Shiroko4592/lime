@@ -160,6 +160,10 @@ del, s, strike {
     padding: var(--liberty-navbar-logo-padding, 0);
 }
 
+.Liberty .nav-wrapper .navbar .navbar-nav {
+    margin-right: auto;
+}
+
 .Liberty .nav-wrapper .navbar .navbar-nav .nav-item {
     margin: 0;
 }
