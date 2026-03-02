@@ -151,6 +151,7 @@ del, s, strike {
     height: 2.8rem;
     display: flex;
     align-items: center;
+    white-space: nowrap;
     margin: var(--liberty-navbar-logo-margin, 0);
     padding: var(--liberty-navbar-logo-padding, 0);
 }
