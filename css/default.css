@@ -152,6 +152,7 @@ del, s, strike {
     display: flex;
     align-items: center;
     white-space: nowrap;
+    flex-shrink: 0;
     margin: var(--liberty-navbar-logo-margin, 0);
     padding: var(--liberty-navbar-logo-padding, 0);
 }
