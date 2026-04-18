@@ -14,7 +14,7 @@ Liberty 스킨을 딥웹 위키 스타일로 개조한 프로젝트입니다.
 - Text: #E0E0E0 (밝은 회색)
 - Accent: #00FF00 (네온 초록)
 
-# Darknet Wiki Theme
+# Lime Wiki Theme
 
 This project showcases the Darknet Wiki theme, which features a sleek green and gray color scheme. The Darknet theme is designed to enhance readability and provide a modern look for wiki-style documentation.
 
