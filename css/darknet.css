@@ -1,0 +1,380 @@
+/* Darknet Wiki Theme - Green/Gray Color Scheme */
+
+:root {
+  /* Primary Colors */
+  --darknet-primary: #00FF00;
+  --darknet-primary-dark: #00AA00;
+  --darknet-secondary: #00CC00;
+  
+  /* Background Colors */
+  --darknet-bg-primary: #0A0E27;
+  --darknet-bg-secondary: #0F1535;
+  --darknet-bg-tertiary: #141B3E;
+  --darknet-bg-hover: #1A2450;
+  
+  /* Text Colors */
+  --darknet-text-primary: #E0E0E0;
+  --darknet-text-secondary: #A8A8A8;
+  --darknet-text-tertiary: #707070;
+  --darknet-text-accent: #00FF00;
+  
+  /* Border Colors */
+  --darknet-border: #1A3A1A;
+  --darknet-border-light: #2D5D2D;
+  
+  /* Status Colors */
+  --darknet-success: #00FF00;
+  --darknet-warning: #FFD700;
+  --darknet-danger: #FF4444;
+  --darknet-info: #00CCFF;
+}
+
+/* Base Styles */
+body {
+  background-color: var(--darknet-bg-primary);
+  color: var(--darknet-text-primary);
+  font-family: 'Courier New', monospace;
+  letter-spacing: 0.5px;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: var(--darknet-bg-secondary) !important;
+  border-bottom: 2px solid var(--darknet-border-light);
+  box-shadow: 0 2px 10px rgba(0, 255, 0, 0.1);
+}
+
+.navbar-brand {
+  color: var(--darknet-primary) !important;
+  font-weight: bold;
+  text-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+  font-size: 1.5rem;
+}
+
+.navbar-brand:hover {
+  color: var(--darknet-secondary) !important;
+  text-shadow: 0 0 20px rgba(0, 255, 0, 0.8);
+}
+
+/* Nav Links */
+.nav-link {
+  color: var(--darknet-text-primary) !important;
+  transition: all 0.3s ease;
+  border-bottom: 2px solid transparent;
+}
+
+.nav-link:hover {
+  color: var(--darknet-primary) !important;
+  border-bottom: 2px solid var(--darknet-primary);
+  text-shadow: 0 0 10px rgba(0, 255, 0, 0.4);
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+  background-color: var(--darknet-bg-secondary);
+  border: 1px solid var(--darknet-border-light);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.dropdown-item {
+  color: var(--darknet-text-primary);
+  border-bottom: 1px solid var(--darknet-border);
+  transition: all 0.2s ease;
+}
+
+.dropdown-item:hover {
+  background-color: var(--darknet-bg-hover);
+  color: var(--darknet-primary);
+  padding-left: 1.5rem;
+  text-shadow: 0 0 8px rgba(0, 255, 0, 0.3);
+}
+
+.dropdown-divider {
+  border-top: 1px solid var(--darknet-border-light);
+}
+
+/* Content Area */
+.liberty-content {
+  background-color: var(--darknet-bg-primary);
+}
+
+.wiki-article {
+  background-color: var(--darknet-bg-secondary);
+  border: 1px solid var(--darknet-border-light);
+  padding: 2rem;
+  border-radius: 4px;
+  box-shadow: 0 0 20px rgba(0, 255, 0, 0.05);
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--darknet-primary);
+  text-shadow: 0 0 10px rgba(0, 255, 0, 0.3);
+  border-bottom: 1px solid var(--darknet-border-light);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+/* Links */
+a {
+  color: var(--darknet-secondary);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border-bottom: 1px dashed var(--darknet-border);
+}
+
+a:hover {
+  color: var(--darknet-primary);
+  text-shadow: 0 0 8px rgba(0, 255, 0, 0.4);
+  border-bottom: 1px solid var(--darknet-primary);
+}
+
+/* Sidebar */
+.liberty-sidebar {
+  background-color: var(--darknet-bg-primary);
+}
+
+.live-recent {
+  background-color: var(--darknet-bg-secondary);
+  border: 1px solid var(--darknet-border-light);
+  border-radius: 4px;
+  box-shadow: 0 0 15px rgba(0, 255, 0, 0.05);
+}
+
+.live-recent-header {
+  background-color: var(--darknet-bg-tertiary);
+  border-bottom: 2px solid var(--darknet-border-light);
+  padding: 0.75rem;
+}
+
+.nav-tabs .nav-link {
+  color: var(--darknet-text-secondary);
+  border: none;
+  border-bottom: 2px solid transparent;
+}
+
+.nav-tabs .nav-link.active {
+  color: var(--darknet-primary);
+  border-bottom: 2px solid var(--darknet-primary);
+  background-color: transparent;
+  text-shadow: 0 0 10px rgba(0, 255, 0, 0.3);
+}
+
+/* Buttons */
+.btn {
+  transition: all 0.3s ease;
+  border: 1px solid var(--darknet-border-light);
+}
+
+.btn-primary {
+  background-color: var(--darknet-primary);
+  border-color: var(--darknet-primary);
+  color: var(--darknet-bg-primary);
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: var(--darknet-secondary);
+  border-color: var(--darknet-secondary);
+  box-shadow: 0 0 15px rgba(0, 255, 0, 0.5);
+}
+
+.btn-secondary {
+  background-color: var(--darknet-bg-tertiary);
+  border-color: var(--darknet-border-light);
+  color: var(--darknet-primary);
+}
+
+.btn-secondary:hover {
+  background-color: var(--darknet-bg-hover);
+  border-color: var(--darknet-primary);
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.3);
+}
+
+/* Labels and Badges */
+.label, .badge {
+  background-color: var(--darknet-primary);
+  color: var(--darknet-bg-primary);
+  font-weight: bold;
+  text-shadow: none;
+}
+
+.label-info {
+  background-color: var(--darknet-info);
+  color: var(--darknet-bg-primary);
+}
+
+/* Forms */
+input, textarea, select {
+  background-color: var(--darknet-bg-tertiary);
+  color: var(--darknet-text-primary);
+  border: 1px solid var(--darknet-border-light);
+  border-radius: 4px;
+  padding: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+input:focus, textarea:focus, select:focus {
+  background-color: var(--darknet-bg-hover);
+  border-color: var(--darknet-primary);
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.3);
+  outline: none;
+}
+
+/* Footer */
+.liberty-footer {
+  border-top: 2px solid var(--darknet-border-light);
+  color: var(--darknet-text-secondary);
+  padding-top: 2rem;
+  margin-top: 3rem;
+}
+
+.footer-info {
+  color: var(--darknet-text-secondary);
+}
+
+.footer-info a {
+  color: var(--darknet-secondary);
+}
+
+/* Alerts */
+.alert {
+  background-color: var(--darknet-bg-secondary);
+  border: 1px solid var(--darknet-border-light);
+  color: var(--darknet-text-primary);
+}
+
+.alert.alert-info {
+  border-left: 4px solid var(--darknet-info);
+}
+
+.alert.alert-warning {
+  border-left: 4px solid var(--darknet-warning);
+}
+
+.alert.alert-danger {
+  border-left: 4px solid var(--darknet-danger);
+}
+
+/* Code Blocks */
+code, pre {
+  background-color: var(--darknet-bg-tertiary);
+  color: var(--darknet-primary);
+  border: 1px solid var(--darknet-border-light);
+  border-radius: 4px;
+  padding: 0.25rem 0.5rem;
+  font-family: 'Courier New', monospace;
+}
+
+pre {
+  padding: 1rem;
+  overflow-x: auto;
+  box-shadow: inset 0 0 10px rgba(0, 255, 0, 0.1);
+}
+
+/* Tables */
+table {
+  color: var(--darknet-text-primary);
+  border-collapse: collapse;
+}
+
+table thead {
+  background-color: var(--darknet-bg-tertiary);
+  border-bottom: 2px solid var(--darknet-border-light);
+}
+
+table thead th {
+  color: var(--darknet-primary);
+  padding: 0.75rem;
+  text-align: left;
+}
+
+table tbody tr {
+  border-bottom: 1px solid var(--darknet-border);
+}
+
+table tbody tr:hover {
+  background-color: var(--darknet-bg-hover);
+}
+
+table tbody td {
+  padding: 0.75rem;
+}
+
+/* Scroll Buttons */
+.scroll-buttons {
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  z-index: 100;
+}
+
+.scroll-button, .scroll-toc, .scroll-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: var(--darknet-bg-secondary);
+  border: 2px solid var(--darknet-border-light);
+  border-radius: 50%;
+  color: var(--darknet-primary);
+  transition: all 0.3s ease;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.scroll-button:hover, .scroll-toc:hover, .scroll-bottom:hover {
+  background-color: var(--darknet-primary);
+  color: var(--darknet-bg-primary);
+  box-shadow: 0 0 20px rgba(0, 255, 0, 0.6);
+  transform: scale(1.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+  
+  .nav-wrapper {
+    flex-wrap: wrap;
+  }
+  
+  .wiki-article {
+    padding: 1rem;
+  }
+  
+  h1 {
+    font-size: 1.8rem;
+  }
+  
+  h2 {
+    font-size: 1.4rem;
+  }
+}
+
+/* Print Styles */
+@media print {
+  body {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .navbar, .liberty-sidebar, .scroll-buttons {
+    display: none;
+  }
+  }
